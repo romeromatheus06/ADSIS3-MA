@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aqui vão testes</title>
+	<meta charset="utf-8">
+	
+	<style> 
+		h1 {color navy;
+		    text-align:center}
+	</style>
+  </head>
+  <body>
+	<div class=header>
+		<h1> Matheus Romero Marin </h1>
+		<p> Bem vindos ao meu Portifolio </p>
+	</div>
+
+	<nav>
+		<a href="#sobre" target="_self">Sobre</a>
+		<a href="#projetos" target="_self">Projetos</a>
+		<a href="#contato" target="_self">Contato</a>
+	</nav>
+	
+	<div id="main">
+		<section id="sobre">
+			<h3>	Sobre Mim </h3> 
+			<p>Sou <i> estudante </i> apaixonado por <b> musica </b> e que
+			as vezes da aula de <mark> Futsal </mark> <del> pra pagar as contas </del> </p>
+			<p> Composição: <strong> C & H<sub>2</sub>0 </p>
+
+		<section id="projetos">
+			<article>
+				<h5> Algoritmos Paralelos Em GPGPU com CUda </h5>
+				<p> Tem na internet, procura ai </p>
+			</article>
+		</section>
+		
+		<section id="contato">
+    <form>
+        <fieldset>
+            <legend>📬 Envie uma mensagem</legend>
+
+            <!-- Nome -->
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+
+            <!-- Gênero -->
+            <label>Gênero:</label><br>
+            <input type="radio" id="masculino" name="gen" value="Masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id="feminino" name="gen" value="Feminino">
+            <label for="feminino">Feminino</label>
+            <br><br>
+
+            <!-- Interesses -->
+            <label>Interesses:</label><br>
+            <input type="checkbox" id="wando" name="interesses" value="Wando">
+            <label for="wando">WANDO</label>
+
+            <input type="checkbox" id="lulu" name="interesses" value="Lulu Santos">
+            <label for="lulu">LULU SANTOS</label>
+
+            <input type="checkbox" id="magal" name="interesses" value="Sidney Magal">
+            <label for="magal">SIDNEY MAGAL</label>
+
+            <input type="checkbox" id="ney" name="interesses" value="Ney Mato Grosso">
+            <label for="ney">NEY MATO GROSSO</label>
+            <br><br>
+
+            <!-- Linguagem -->
+            <label for="linguagemInput">Linguagem:</label><br>
+            <input list="linguagem" id="linguagemInput" name="linguagem">
+            <datalist id="linguagem">
+                <option value="Java">
+                <option value="C">
+                <option value="Python">
+                <option value="COBOL">
+            </datalist>
+            <br><br>
+
+        </fieldset>
+    </form>
+</section>
+	</div>
+	<footer>
+		<h4>Feito com 🤍 </h4> 
+		<h6> by Matheus Romero Marin </h6>
+	</footer>
+  </body>
+</html>
