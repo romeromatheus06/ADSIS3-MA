@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Pet Virtual</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="bg-pink-50 min-h-screen flex flex-col items-center justify-center gap-6">
+
+    <h1 class="text-3xl font-bold">Meu Pet Virtual</h1>
+
+    <img 
+    id="mainImage" 
+    src="cria_norm.png" 
+    class="w-full max-w-xs h-auto drop-shadow-xl"/>
+    
+    <div class="flex items-center gap-4">
+
+        <input
+            type="text"
+            placeholder="Nome da criatura..."
+            class="input input-secondary"
+        />
+    </div>
+
+    <img
+        id="btnImage"
+        src="btn_frut.png"
+        onclick="alimentar()"
+        class="w-24 cursor-pointer hover:scale-110 active:scale-95 transition"
+    />
+
+    <script src="script.js"></script>
+
+</body>
+</html>
