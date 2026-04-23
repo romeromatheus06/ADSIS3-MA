@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#imagem img {
+  width: 600px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+section {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
