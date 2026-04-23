@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    background-color: #f4f7f6;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+.grupos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-grupo {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: center;
+}
+
+.card-grupo h3 {
+    color: #3498db;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}
